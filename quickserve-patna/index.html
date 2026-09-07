@@ -1,0 +1,1312 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuickServe Patna | Patna's Most Reliable Home & Vehicle Care</title>
+    <meta name="description" content="Certified Electricians, Plumbers, AC Mechanics, Car Denters & Cleaners in Patna. 60-minute doorstep service across Boring Road, Kankarbagh, Bailey Road & Danapur. Call +91 6206366989." />
+    <meta property="og:title" content="QuickServe Patna | Doorstep Home & Vehicle Services in 60 Mins" />
+    <meta property="og:description" content="Patna's most trusted home & auto care. 30-day warranty, upfront pricing, 100% verified technicians. Call or WhatsApp +91 6206366989." />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#0B2545" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- FontAwesome CDN for Crisp UI Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <!-- Official Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                navy: '#0B2545',
+                dark: '#071A32',
+                amber: '#F59E0B',
+                amberHover: '#D97706',
+                slateBg: '#F8FAFC',
+                whatsapp: '#25D366',
+                whatsappHover: '#20BD5A'
+              }
+            },
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+              display: ['"Outfit"', 'sans-serif']
+            },
+            animation: {
+              'pulse-soft': 'pulseSoft 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'bounce-subtle': 'bounceSubtle 2.5s infinite'
+            },
+            keyframes: {
+              pulseSoft: {
+                '0%, 100%': { opacity: '1', transform: 'scale(1)' },
+                '50%': { opacity: '0.85', transform: 'scale(1.05)' }
+              },
+              bounceSubtle: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-4px)' }
+              }
+            }
+          }
+        }
+      }
+    </script>
+
+    <style>
+      /* Custom pulse glow for WhatsApp button */
+      @keyframes waPulseGlow {
+        0% {
+          box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6);
+        }
+        70% {
+          box-shadow: 0 0 0 16px rgba(37, 211, 102, 0);
+        }
+        100% {
+          box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+        }
+      }
+      .whatsapp-pulse {
+        animation: waPulseGlow 2s infinite;
+      }
+    </style>
+  </head>
+
+  <body class="bg-slate-50 text-slate-900 font-sans antialiased selection:bg-amber-400 selection:text-slate-900 pb-16 md:pb-0">
+
+    <!-- 1. TOP MICRO ANNOUNCEMENT BANNER -->
+    <div class="bg-brand-dark text-slate-300 text-xs py-2 px-4 border-b border-white/10">
+      <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
+        <div class="flex items-center gap-2">
+          <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span class="font-bold text-brand-amber">Patna Rapid Dispatch:</span>
+          <span>Average arrival 42 mins today in Boring Road, Kankarbagh & Danapur</span>
+        </div>
+        <div class="flex items-center gap-4 text-xs">
+          <span class="hidden md:inline text-slate-300">
+            <i class="fa-regular fa-clock text-brand-amber mr-1"></i> 8:00 AM – 9:30 PM (All 7 Days)
+          </span>
+          <span class="text-emerald-400 font-semibold flex items-center gap-1">
+            <i class="fa-solid fa-shield-halved"></i> 100% Verified Local Karigars
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. STICKY TOP HEADER -->
+    <header class="sticky top-0 z-40 bg-brand-navy text-white shadow-lg border-b border-white/10 transition-all duration-300">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-18 flex items-center justify-between">
+        
+        <!-- Brand Logo -->
+        <a href="#" class="flex items-center gap-3 group">
+          <div class="w-10 h-10 rounded-xl bg-brand-amber text-brand-navy flex items-center justify-center font-black text-xl shadow-md group-hover:scale-105 transition-transform duration-200">
+            <i class="fa-solid fa-bolt text-brand-navy text-lg"></i>
+          </div>
+          <div>
+            <span class="text-xl sm:text-2xl font-extrabold tracking-tight font-display text-white">
+              QuickServe <span class="text-brand-amber">Patna</span>
+            </span>
+            <span class="block text-[10px] uppercase font-bold tracking-widest text-slate-300 -mt-1">
+              Doorstep Service in 60 Mins
+            </span>
+          </div>
+        </a>
+
+        <!-- Desktop Nav Links -->
+        <nav class="hidden lg:flex items-center gap-7 text-sm font-medium text-slate-200">
+          <a href="#services" class="hover:text-brand-amber transition-colors">Services</a>
+          <a href="#pricing" class="hover:text-brand-amber transition-colors">Pricing & Rates</a>
+          <a href="#why-us" class="hover:text-brand-amber transition-colors">Why QuickServe</a>
+          <a href="#reviews" class="hover:text-brand-amber transition-colors">Patna Reviews</a>
+          <a href="#booking" class="hover:text-brand-amber transition-colors">Book Online</a>
+        </nav>
+
+        <!-- Right Action Buttons -->
+        <div class="flex items-center gap-2.5 sm:gap-3">
+          <!-- Direct Phone Call Link -->
+          <a
+            id="header-call-btn"
+            href="tel:+916206366989"
+            class="flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-3.5 py-2 sm:px-4 sm:py-2.5 rounded-full text-xs sm:text-sm font-semibold border border-white/15 transition-all shadow-sm active:scale-95"
+            title="Call QuickServe Patna Helpline"
+          >
+            <i class="fa-solid fa-phone text-brand-amber"></i>
+            <span class="hidden sm:inline">Call:</span>
+            <span class="font-bold">6206366989</span>
+          </a>
+
+          <!-- Green Chat on WhatsApp Button -->
+          <a
+            id="header-whatsapp-btn"
+            href="https://wa.me/916206366989?text=Hi%20QuickServe%20Patna,%20I%20need%20a%20technician"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex items-center gap-2 bg-brand-whatsapp hover:bg-brand-whatsappHover text-white px-3.5 py-2 sm:px-4 sm:py-2.5 rounded-full text-xs sm:text-sm font-bold shadow-md shadow-emerald-500/20 active:scale-95 transition-all"
+            title="Chat directly on WhatsApp"
+          >
+            <i class="fa-brands fa-whatsapp text-base"></i>
+            <span class="hidden xs:inline">Chat on WhatsApp</span>
+          </a>
+
+          <!-- Mobile Menu Toggle -->
+          <button
+            id="mobile-menu-btn"
+            onclick="toggleMobileMenu()"
+            class="lg:hidden p-2 rounded-lg text-slate-300 hover:text-white hover:bg-white/10 focus:outline-none"
+            aria-label="Toggle Navigation Menu"
+          >
+            <i id="menu-icon" class="fa-solid fa-bars text-xl"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Dropdown Menu -->
+      <div id="mobile-menu" class="hidden lg:hidden bg-brand-dark border-t border-white/10 px-4 py-4 space-y-3">
+        <a href="#services" onclick="toggleMobileMenu()" class="block py-2 text-slate-200 hover:text-brand-amber font-medium border-b border-white/5">Our Services & Rates</a>
+        <a href="#pricing" onclick="toggleMobileMenu()" class="block py-2 text-slate-200 hover:text-brand-amber font-medium border-b border-white/5">Transparent Pricing</a>
+        <a href="#why-us" onclick="toggleMobileMenu()" class="block py-2 text-slate-200 hover:text-brand-amber font-medium border-b border-white/5">Why Choose Us</a>
+        <a href="#reviews" onclick="toggleMobileMenu()" class="block py-2 text-slate-200 hover:text-brand-amber font-medium border-b border-white/5">Verified Customer Reviews</a>
+        <a href="#booking" onclick="toggleMobileMenu()" class="block py-2 text-slate-200 hover:text-brand-amber font-medium border-b border-white/5">Instant Booking Form</a>
+        <div class="pt-2 flex flex-col gap-2">
+          <a href="tel:+916206366989" class="w-full flex items-center justify-center gap-2 bg-white/10 py-2.5 rounded-xl font-bold text-sm text-white">
+            <i class="fa-solid fa-phone text-brand-amber"></i> Call Expert: +91 6206366989
+          </a>
+          <a href="https://wa.me/916206366989?text=Hi%20QuickServe%20Patna,%20I%20need%20a%20technician" target="_blank" class="w-full flex items-center justify-center gap-2 bg-brand-whatsapp py-2.5 rounded-xl font-bold text-sm text-white">
+            <i class="fa-brands fa-whatsapp text-lg"></i> Book on WhatsApp
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- 3. HERO SECTION (Sleek Interface + High-Converting CRO) -->
+      <section class="bg-brand-navy text-white relative overflow-hidden pt-10 pb-16 lg:py-20">
+        <!-- Subtle background glow circles -->
+        <div class="absolute -top-24 -right-24 w-96 h-96 bg-brand-amber/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute -bottom-24 -left-24 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+            
+            <!-- Left Hero Content -->
+            <div class="lg:col-span-7">
+              <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/15 text-brand-amber text-xs font-bold uppercase tracking-wider mb-5">
+                <span class="flex h-2 w-2 rounded-full bg-brand-amber"></span>
+                #1 Rated Service in Patna
+              </div>
+
+              <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight font-display leading-[1.15] mb-5">
+                Patna's Most Reliable <br />
+                <span class="text-brand-amber">Home & Vehicle Care</span> <br />
+                at Your Doorstep
+              </h1>
+
+              <p class="text-base sm:text-xl text-slate-300 font-normal leading-relaxed max-w-xl mb-8">
+                Certified Electricians, Plumbers, AC Mechanics, Car Denters & Cleaners in <span class="text-white font-bold underline decoration-brand-amber decoration-2 underline-offset-4">60 minutes</span>.
+              </p>
+
+              <!-- 2 Main Hero CTA Buttons -->
+              <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 mb-10">
+                <a
+                  id="hero-wa-cta"
+                  href="https://wa.me/916206366989?text=Hi%20QuickServe%20Patna,%20I%20need%20a%20technician%20urgently"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="flex items-center justify-center gap-3 bg-brand-whatsapp hover:bg-brand-whatsappHover text-white font-extrabold px-6 py-4 rounded-xl text-base shadow-lg shadow-emerald-600/30 active:scale-98 transition-all"
+                >
+                  <i class="fa-brands fa-whatsapp text-2xl"></i>
+                  <span>Book on WhatsApp (Fastest)</span>
+                </a>
+
+                <a
+                  id="hero-call-cta"
+                  href="tel:+916206366989"
+                  class="flex items-center justify-center gap-2.5 bg-white/10 hover:bg-white/20 text-white font-bold px-6 py-4 rounded-xl text-base border border-white/20 active:scale-98 transition-all"
+                >
+                  <i class="fa-solid fa-phone text-brand-amber text-lg"></i>
+                  <span>Call Expert Now</span>
+                </a>
+              </div>
+
+              <!-- 3 Value Pillars -->
+              <div class="grid grid-cols-3 gap-3 sm:gap-4 pt-4 border-t border-white/10">
+                <div class="bg-white/5 border border-white/10 p-3 sm:p-4 rounded-xl text-center">
+                  <div class="text-brand-amber font-extrabold text-base sm:text-xl font-display">30-Day</div>
+                  <div class="text-xs text-slate-300 font-medium">Work Guarantee</div>
+                </div>
+                <div class="bg-white/5 border border-white/10 p-3 sm:p-4 rounded-xl text-center">
+                  <div class="text-brand-amber font-extrabold text-base sm:text-xl font-display">Verified</div>
+                  <div class="text-xs text-slate-300 font-medium">Patna Techs</div>
+                </div>
+                <div class="bg-white/5 border border-white/10 p-3 sm:p-4 rounded-xl text-center">
+                  <div class="text-brand-amber font-extrabold text-base sm:text-xl font-display">Upfront</div>
+                  <div class="text-xs text-slate-300 font-medium">Fixed Rates</div>
+                </div>
+              </div>
+
+              <!-- Trust Social Proof -->
+              <div class="mt-6 flex items-center gap-3 text-xs text-slate-300">
+                <div class="flex text-brand-amber text-sm">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span>Rated <strong>4.9/5</strong> by 3,400+ Patna families</span>
+              </div>
+            </div>
+
+            <!-- Right Hero Card / Quick Instant Dispatch Widget -->
+            <div class="lg:col-span-5">
+              <div class="bg-white text-slate-900 p-6 sm:p-8 rounded-2xl shadow-2xl border border-slate-200 relative">
+                <div class="absolute -top-3 right-6 bg-brand-amber text-brand-navy text-[11px] font-extrabold px-3 py-1 rounded-full uppercase tracking-wider shadow-sm">
+                  ⚡ 60-Min Doorstep Arrival
+                </div>
+                
+                <h3 class="text-xl font-extrabold text-brand-navy font-display mb-1">
+                  Need a Technician Right Now?
+                </h3>
+                <p class="text-xs text-slate-500 mb-5">
+                  Pick your service and local Patna area. We'll connect you directly on WhatsApp in seconds.
+                </p>
+
+                <div class="space-y-3.5">
+                  <div>
+                    <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
+                      Choose Service
+                    </label>
+                    <select id="quick-hero-service" class="w-full bg-slate-50 border border-slate-300 rounded-lg px-3.5 py-2.5 text-sm font-medium text-slate-800 focus:outline-none focus:ring-2 focus:ring-brand-amber">
+                      <option value="AC Jet Cleaning & Repair (₹399)">AC Service & Repair (Jet Wash @ ₹399)</option>
+                      <option value="Electrician Wiring & MCB (₹79)">Electrician (Wiring, MCB from ₹79)</option>
+                      <option value="Plumbing Leakage & Tap Fix (₹99)">Plumbing (Leak Fix, Tap fitting from ₹99)</option>
+                      <option value="Home Appliance Repair">Home Appliances (RO, Geyser, Washing Machine)</option>
+                      <option value="Deep Home & Bathroom Cleaning">Deep Cleaning (Bathroom, Kitchen, Sofa)</option>
+                      <option value="CCTV Installation & Setup (₹299)">CCTV Installation & Setup (From ₹299)</option>
+                      <option value="Car & Bike Denting, Painting & Detailing">Car & Bike Denting, Painting & Detailing</option>
+                    </select>
+                  </div>
+
+                  <div>
+                    <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
+                      Patna Locality
+                    </label>
+                    <select id="quick-hero-locality" class="w-full bg-slate-50 border border-slate-300 rounded-lg px-3.5 py-2.5 text-sm font-medium text-slate-800 focus:outline-none focus:ring-2 focus:ring-amber-500">
+                      <option value="Boring Road">Boring Road</option>
+                      <option value="Kankarbagh">Kankarbagh</option>
+                      <option value="Bailey Road">Bailey Road</option>
+                      <option value="Raja Bazar">Raja Bazar</option>
+                      <option value="Danapur / Saguna More">Danapur / Saguna More</option>
+                      <option value="Patliputra Colony">Patliputra Colony</option>
+                      <option value="Ashiana Nagar">Ashiana Nagar</option>
+                      <option value="Exhibition Road / Fraser Rd">Exhibition Road / Fraser Rd</option>
+                      <option value="Rajendra Nagar">Rajendra Nagar</option>
+                      <option value="Other Patna Locality">Other Area in Patna</option>
+                    </select>
+                  </div>
+
+                  <button
+                    onclick="handleQuickHeroBooking()"
+                    class="w-full bg-brand-whatsapp hover:bg-brand-whatsappHover text-white font-extrabold py-3.5 px-4 rounded-xl text-sm flex items-center justify-center gap-2 shadow-md shadow-emerald-500/20 active:scale-98 transition-all mt-2"
+                  >
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                    <span>Connect with Patna Tech on WhatsApp</span>
+                  </button>
+
+                  <div class="text-center pt-2">
+                    <span class="text-xs text-slate-500">Or speak immediately:</span>
+                    <a href="tel:+916206366989" class="text-xs font-bold text-brand-navy hover:text-brand-amber ml-1">
+                      <i class="fa-solid fa-phone text-xs mr-0.5"></i> +91 6206366989
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Verified Security Badge -->
+                <div class="mt-5 pt-4 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
+                  <span class="flex items-center gap-1.5">
+                    <i class="fa-solid fa-check text-emerald-600"></i> No advance deposit
+                  </span>
+                  <span class="flex items-center gap-1.5">
+                    <i class="fa-solid fa-check text-emerald-600"></i> Pay after work
+                  </span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. SERVICE CATEGORIES GRID -->
+      <section id="services" class="py-16 bg-slate-50 border-b border-slate-200 scroll-mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div class="text-center max-w-2xl mx-auto mb-12">
+            <span class="inline-block px-3 py-1 bg-amber-100 text-amber-900 text-xs font-bold uppercase tracking-wider rounded-full mb-3">
+              Doorstep Services
+            </span>
+            <h2 class="text-2xl sm:text-4xl font-extrabold text-brand-navy font-display tracking-tight">
+              Our Professional Services in Patna
+            </h2>
+            <p class="text-sm sm:text-base text-slate-600 mt-2">
+              Fixed rate cards, background-verified Patna karigars, and 30-day post-service guarantee on all repairs.
+            </p>
+          </div>
+
+          <!-- Cards Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+
+            <!-- Card 1: AC Service & Repair -->
+            <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md hover:border-brand-amber transition-all flex flex-col justify-between group">
+              <div class="p-6">
+                <div class="flex items-start justify-between mb-4">
+                  <div class="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center text-xl group-hover:bg-brand-navy group-hover:text-brand-amber transition-colors">
+                    <i class="fa-solid fa-snowflake"></i>
+                  </div>
+                  <span class="bg-amber-100 text-amber-900 text-xs font-extrabold px-2.5 py-1 rounded-full">
+                    Jet Wash @ ₹399
+                  </span>
+                </div>
+                <h3 class="text-lg font-bold text-brand-navy mb-1.5 font-display">
+                  AC Service & Repair
+                </h3>
+                <p class="text-xs text-slate-500 mb-4">
+                  Split & Window AC high-pressure foam jet wash, gas charging, leak detection, and compressor repair.
+                </p>
+                <ul class="text-xs text-slate-600 space-y-2 mb-6">
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-600 text-[10px]"></i> Power Jet Foam Cleaning (Indoor & Outdoor)
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-600 text-[10px]"></i> Genuine Gas Refill (R32 / R410)
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-600 text-[10px]"></i> Cooling & PCB Diagnostics
+                  </li>
+                </ul>
+              </div>
+              <div class="p-4 bg-slate-50 border-t border-slate-100">
+                <a
+                  href="https://wa.me/916206366989?text=Hi%20QuickServe%20Patna,%20I%20want%20to%20book%20AC%20Service%20%26%20Repair%20(@%20₹399)."
+                  target="_blank"
+                  class="w-full bg-brand-navy hover:bg-brand-amber hover:text-brand-navy text-white text-xs font-bold py-2.5 px-3 rounded-lg flex items-center justify-center gap-2 transition-colors"
+                >
+                  <i class="fa-brands fa-whatsapp text-sm text-emerald-400"></i>
+                  <span>Book This Service</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Card 2: Electrician -->
+            <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md hover:border-brand-amber transition-all flex flex-col justify-between group">
+              <div class="p-6">
+                <div class="flex items-start justify-between mb-4">
+                  <div class="w-12 h-12 rounded-xl bg-amber-50 text-brand-amber flex items-center justify-center text-xl group-hover:bg-brand-navy group-hover:text-brand-amber transition-colors">
+                    <i class="fa-solid fa-bolt"></i>
+                  </div>
+                  <span class="bg-amber-100 text-amber-900 text-xs font-extrabold px-2.5 py-1 rounded-full">
+                    Starts @ ₹79
+                  </span>
+                </div>
+                <h3 class="text-lg font-bold text-brand-navy mb-1.5 font-display">
+                  Electrician Repairs
+                </h3>
+                <p class="text-xs text-slate-500 mb-4">
+                  Rapid resolution for wiring short-circuits, MCB tripping, fan fittings, and complete inverter installation.
+                </p>
+                <ul class="text-xs text-slate-600 space-y-2 mb-6">
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-600 text-[10px]"></i> Fan & Light Fixtures from ₹79
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-600 text-[10px]"></i> MCB Tripping & Short Circuit Fix
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-600 text-[10px]"></i> Heavy Inverter & Battery Wiring
+                  </li>
+                </ul>
+              </div>
+              <div class="p-4 bg-slate-50 border-t border-slate-100">
+                <a
+                  href="https://wa.me/916206366989?text=Hi%20QuickServe%20Patna,%20I%20want%20to%20book%20an%20Electrician%20for%20repairs."
+                  target="_blank"
+                  class="w-full bg-brand-navy hover:bg-brand-amber hover:text-brand-navy text-white text-xs font-bold py-2.5 px-3 rounded-lg flex items-center justify-center gap-2 transition-colors"
+                >
+                  <i class="fa-brands fa-whatsapp text-sm text-emerald-400"></i>
+                  <span>Book This Service</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Card 3: Plumbing -->
+            <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md hover:border-brand-amber transition-all flex flex-col justify-between group">
+              <div class="p-6">
+                <div class="flex items-start justify-between mb-4">
+                  <div class="w-12 h-12 rounded-xl bg-cyan-50 text-cyan-600 flex items-center justify-center text-xl group-hover:bg-brand-navy group-hover:text-brand-amber transition-colors">
+                    <i class="fa-solid fa-faucet-drip"></i>
+                  </div>
+                  <span class="bg-amber-100 text-amber-900 text-xs font-extrabold px-2.5 py-1 rounded-full">
+                    Starts @ ₹99
+                  </span>
+                </div>
+                <h3 class="text-lg font-bold text-brand-navy mb-1.5 font-display">
+                  Plumbing Services
+                </h3>
+                <p class="text-xs text-slate-500 mb-4">
+                  Fast pipe leakage fixes, water tap/faucet replacements, motor pump repair, and overhead tank deep cleaning.
+                </p>
+                <ul class="text-xs text-slate-600 space-y-2 mb-6">
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-600 text-[10px]"></i> Tap, Faucet & Angle Valve Fittings
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-600 text-[10px]"></i> Concealed Leakage Detection
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-600 text-[10px]"></i> Overhead Rooftop Tank Cleaning
+                  </li>
+                </ul>
+              </div>
+              <div class="p-4 bg-slate-50 border-t border-slate-100">
+                <a
+                  href="https://wa.me/916206366989?text=Hi%20QuickServe%20Patna,%20I%20want%20to%20book%20a%20Plumber%20for%20leakage%20or%20fittings."
+                  target="_blank"
+                  class="w-full bg-brand-navy hover:bg-brand-amber hover:text-brand-navy text-white text-xs font-bold py-2.5 px-3 rounded-lg flex items-center justify-center gap-2 transition-colors"
+                >
+                  <i class="fa-brands fa-whatsapp text-sm text-emerald-400"></i>
+                  <span>Book This Service</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Card 4: Home Appliances -->
+            <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md hover:border-brand-amber transition-all flex flex-col justify-between group">
+              <div class="p-6">
+                <div class="flex items-start justify-between mb-4">
+                  <div class="w-12 h-12 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center text-xl group-hover:bg-brand-navy group-hover:text-brand-amber transition-colors">
+                    <i class="fa-solid fa-tv"></i>
+                  </div>
+                  <span class="bg-amber-100 text-amber-900 text-xs font-extrabold px-2.5 py-1 rounded-full">
+                    Starts @ ₹199
+                  </span>
+                </div>
+                <h3 class="text-lg font-bold text-brand-navy mb-1.5 font-display">
+                  Home Appliances
+                </h3>
+                <p class="text-xs text-slate-500 mb-4">
+                  RO water purifiers filter renewal, geyser heating coil replacement, and washing machine motor diagnosis.
+                </p>
+                <ul class="text-xs text-slate-600 space-y-2 mb-6">
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-600 text-[10px]"></i> RO Filter & Membrane Replacement
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-600 text-[10px]"></i> Geyser Heating Element & Thermostat
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-600 text-[10px]"></i> Washing Machine & Refrigerator Care
+                  </li>
+                </ul>
+              </div>
+              <div class="p-4 bg-slate-50 border-t border-slate-100">
+                <a
+                  href="https://wa.me/916206366989?text=Hi%20QuickServe%20Patna,%20I%20want%20to%20book%20Home%20Appliance%20Repair%20(RO/Geyser/Washing%20Machine)."
+                  target="_blank"
+                  class="w-full bg-brand-navy hover:bg-brand-amber hover:text-brand-navy text-white text-xs font-bold py-2.5 px-3 rounded-lg flex items-center justify-center gap-2 transition-colors"
+                >
+                  <i class="fa-brands fa-whatsapp text-sm text-emerald-400"></i>
+                  <span>Book This Service</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Card 5: Deep Cleaning -->
+            <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md hover:border-brand-amber transition-all flex flex-col justify-between group">
+              <div class="p-6">
+                <div class="flex items-start justify-between mb-4">
+                  <div class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-xl group-hover:bg-brand-navy group-hover:text-brand-amber transition-colors">
+                    <i class="fa-solid fa-sparkles"></i>
+                  </div>
+                  <span class="bg-amber-100 text-amber-900 text-xs font-extrabold px-2.5 py-1 rounded-full">
+                    Bath/Kitchen
+                  </span>
+                </div>
+                <h3 class="text-lg font-bold text-brand-navy mb-1.5 font-display">
+                  Deep Cleaning
+                </h3>
+                <p class="text-xs text-slate-500 mb-4">
+                  Intense bathroom tile descaling, modular kitchen degreasing, sofa vacuum shampooing & full move-in cleaning.
+                </p>
+                <ul class="text-xs text-slate-600 space-y-2 mb-6">
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-600 text-[10px]"></i> Acid-Free Bathroom Descaling
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-600 text-[10px]"></i> Kitchen Chimney & Counter Degreasing
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-600 text-[10px]"></i> Sofa & Mattress Foam Extraction
+                  </li>
+                </ul>
+              </div>
+              <div class="p-4 bg-slate-50 border-t border-slate-100">
+                <a
+                  href="https://wa.me/916206366989?text=Hi%20QuickServe%20Patna,%20I%20want%20to%20book%20Deep%20Cleaning%20(Bathroom/Kitchen/Home)."
+                  target="_blank"
+                  class="w-full bg-brand-navy hover:bg-brand-amber hover:text-brand-navy text-white text-xs font-bold py-2.5 px-3 rounded-lg flex items-center justify-center gap-2 transition-colors"
+                >
+                  <i class="fa-brands fa-whatsapp text-sm text-emerald-400"></i>
+                  <span>Book This Service</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Card 6: CCTV Installation & Setup -->
+            <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md hover:border-brand-amber transition-all flex flex-col justify-between group">
+              <div class="p-6">
+                <div class="flex items-start justify-between mb-4">
+                  <div class="w-12 h-12 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center text-xl group-hover:bg-brand-navy group-hover:text-brand-amber transition-colors">
+                    <i class="fa-solid fa-video"></i>
+                  </div>
+                  <span class="bg-amber-100 text-amber-900 text-xs font-extrabold px-2.5 py-1 rounded-full">
+                    Starts @ ₹299
+                  </span>
+                </div>
+                <h3 class="text-lg font-bold text-brand-navy mb-1.5 font-display">
+                  CCTV Security Setup
+                </h3>
+                <p class="text-xs text-slate-500 mb-4">
+                  HD & IP security camera installation, DVR cabling, smartphone live view sync, and night-vision repair.
+                </p>
+                <ul class="text-xs text-slate-600 space-y-2 mb-6">
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-600 text-[10px]"></i> Doorstep Camera Mounting @ ₹299/pt
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-600 text-[10px]"></i> Mobile App Remote Live Viewing
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-600 text-[10px]"></i> DVR / Hard Disk Setup & Cable Conceal
+                  </li>
+                </ul>
+              </div>
+              <div class="p-4 bg-slate-50 border-t border-slate-100">
+                <a
+                  href="https://wa.me/916206366989?text=Hi%20QuickServe%20Patna,%20I%20want%20to%20book%20CCTV%20Installation%20or%20Repair."
+                  target="_blank"
+                  class="w-full bg-brand-navy hover:bg-brand-amber hover:text-brand-navy text-white text-xs font-bold py-2.5 px-3 rounded-lg flex items-center justify-center gap-2 transition-colors"
+                >
+                  <i class="fa-brands fa-whatsapp text-sm text-emerald-400"></i>
+                  <span>Book This Service</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Card 7: Car & Bike Denting, Painting & Detailing -->
+            <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md hover:border-brand-amber transition-all flex flex-col justify-between group md:col-span-2 lg:col-span-2 xl:col-span-2">
+              <div class="p-6">
+                <div class="flex items-start justify-between mb-4">
+                  <div class="w-12 h-12 rounded-xl bg-orange-50 text-orange-600 flex items-center justify-center text-xl group-hover:bg-brand-navy group-hover:text-brand-amber transition-colors">
+                    <i class="fa-solid fa-car"></i>
+                  </div>
+                  <span class="bg-amber-100 text-amber-900 text-xs font-extrabold px-2.5 py-1 rounded-full">
+                    Panel Paint @ ₹1499
+                  </span>
+                </div>
+                <h3 class="text-lg font-bold text-brand-navy mb-1.5 font-display">
+                  Car & Bike Denting, Painting & Doorstep Detailing
+                </h3>
+                <p class="text-xs text-slate-500 mb-4">
+                  Factory-grade scratch removal, 3M machine rubbing, bumper/fender panel painting, and doorstep waterless foam wash right in your apartment parking.
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-600 mb-4">
+                  <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-600 text-[10px]"></i> Bumper & Fender Panel Paint @ ₹1499
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-600 text-[10px]"></i> Doorstep 3M Machine Rubbing & Wax
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-600 text-[10px]"></i> High-Precision Dent Pulling
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-600 text-[10px]"></i> Bike Engine Oil & Brake Tuneup
+                  </div>
+                </div>
+              </div>
+              <div class="p-4 bg-slate-50 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-3">
+                <span class="text-xs text-slate-500">Save 40% vs authorized dealer body shops</span>
+                <a
+                  href="https://wa.me/916206366989?text=Hi%20QuickServe%20Patna,%20I%20want%20to%20book%20Car/Bike%20Denting%2C%20Painting%20or%20Detailing."
+                  target="_blank"
+                  class="w-full sm:w-auto bg-brand-navy hover:bg-brand-amber hover:text-brand-navy text-white text-xs font-bold py-2.5 px-6 rounded-lg flex items-center justify-center gap-2 transition-colors"
+                >
+                  <i class="fa-brands fa-whatsapp text-sm text-emerald-400"></i>
+                  <span>Book Auto Service</span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. DIRECT LEAD BOOKING FORM SECTION -->
+      <section id="booking" class="py-16 bg-white scroll-mt-20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div class="bg-gradient-to-br from-brand-navy to-brand-dark text-white rounded-3xl p-6 sm:p-10 shadow-2xl border border-white/10 relative overflow-hidden">
+            <!-- Decorative circle -->
+            <div class="absolute -right-20 -top-20 w-64 h-64 bg-brand-amber/10 rounded-full blur-2xl pointer-events-none"></div>
+
+            <div class="relative z-10 text-center max-w-xl mx-auto mb-8">
+              <span class="inline-block px-3 py-1 bg-brand-amber/20 text-brand-amber text-xs font-bold uppercase tracking-wider rounded-full mb-3 border border-brand-amber/30">
+                Instant Doorstep Dispatch
+              </span>
+              <h2 class="text-2xl sm:text-4xl font-extrabold font-display tracking-tight text-white">
+                Book Your Patna Karigar Now
+              </h2>
+              <p class="text-xs sm:text-sm text-slate-300 mt-2">
+                Fill the quick form below. Our system will instantly generate and send your booking ticket directly to our Patna operations manager via WhatsApp!
+              </p>
+            </div>
+
+            <!-- Booking Form -->
+            <form id="lead-booking-form" onsubmit="handleLeadBooking(event)" class="space-y-4 max-w-2xl mx-auto">
+              
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <!-- 1. Full Name -->
+                <div>
+                  <label for="lead-name" class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-1.5">
+                    Your Full Name <span class="text-brand-amber">*</span>
+                  </label>
+                  <div class="relative">
+                    <span class="absolute inset-y-0 left-0 flex items-center pl-3.5 text-slate-400">
+                      <i class="fa-regular fa-user text-sm"></i>
+                    </span>
+                    <input
+                      type="text"
+                      id="lead-name"
+                      required
+                      placeholder="e.g. Ramesh Kumar"
+                      class="w-full bg-white/10 border border-white/20 rounded-xl pl-10 pr-4 py-3 text-sm text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-amber focus:bg-brand-dark/80 transition-all"
+                    />
+                  </div>
+                </div>
+
+                <!-- 2. Phone Number -->
+                <div>
+                  <label for="lead-phone" class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-1.5">
+                    Phone / WhatsApp Number <span class="text-brand-amber">*</span>
+                  </label>
+                  <div class="relative">
+                    <span class="absolute inset-y-0 left-0 flex items-center pl-3.5 text-slate-400 font-semibold text-xs">
+                      +91
+                    </span>
+                    <input
+                      type="tel"
+                      id="lead-phone"
+                      required
+                      pattern="[0-9]{10}"
+                      maxlength="10"
+                      placeholder="10-digit mobile number"
+                      class="w-full bg-white/10 border border-white/20 rounded-xl pl-12 pr-4 py-3 text-sm text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-amber focus:bg-brand-dark/80 transition-all"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <!-- 3. Select Service -->
+                <div>
+                  <label for="lead-service" class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-1.5">
+                    Select Service <span class="text-brand-amber">*</span>
+                  </label>
+                  <select
+                    id="lead-service"
+                    required
+                    class="w-full bg-slate-800 border border-white/20 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:ring-2 focus:ring-brand-amber transition-all"
+                  >
+                    <option value="AC Service & Repair">AC Service & Repair (Jet Wash @ ₹399)</option>
+                    <option value="Electrician Repairs & Wiring">Electrician (Wiring, MCB from ₹79)</option>
+                    <option value="Plumbing & Water Systems">Plumbing (Leak fix, tap fitting from ₹99)</option>
+                    <option value="Home Appliances">Home Appliances (RO, Geyser, Washing Machine)</option>
+                    <option value="Deep Cleaning">Deep Cleaning (Bathroom, Kitchen, Sofa)</option>
+                    <option value="CCTV Installation & Setup">CCTV Installation & Setup (From ₹299)</option>
+                    <option value="Car & Bike Denting, Painting">Car & Bike Denting, Painting & Detailing</option>
+                  </select>
+                </div>
+
+                <!-- 4. Locality in Patna -->
+                <div>
+                  <label for="lead-area" class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-1.5">
+                    Locality in Patna <span class="text-brand-amber">*</span>
+                  </label>
+                  <select
+                    id="lead-area"
+                    required
+                    class="w-full bg-slate-800 border border-white/20 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:ring-2 focus:ring-brand-amber transition-all"
+                  >
+                    <option value="Boring Road">Boring Road</option>
+                    <option value="Kankarbagh">Kankarbagh</option>
+                    <option value="Bailey Road">Bailey Road</option>
+                    <option value="Raja Bazar">Raja Bazar</option>
+                    <option value="Danapur">Danapur / Saguna More</option>
+                    <option value="Patliputra Colony">Patliputra Colony</option>
+                    <option value="Ashiana Nagar">Ashiana Nagar</option>
+                    <option value="Exhibition Road">Exhibition Road / Fraser Rd</option>
+                    <option value="Other Area in Patna">Other Area in Patna</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- 5. Preferred Date & Time Slot -->
+              <div>
+                <label for="lead-slot" class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-1.5">
+                  Preferred Date & Time Slot <span class="text-brand-amber">*</span>
+                </label>
+                <select
+                  id="lead-slot"
+                  required
+                  class="w-full bg-slate-800 border border-white/20 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:ring-2 focus:ring-brand-amber transition-all"
+                >
+                  <option value="Within Next 60 Mins (Urgent)">⚡ Within Next 60 Mins (Urgent Doorstep)</option>
+                  <option value="Today: Morning (9:00 AM - 12:00 PM)">☀️ Today: Morning (9:00 AM - 12:00 PM)</option>
+                  <option value="Today: Afternoon (1:00 PM - 4:00 PM)">🌤️ Today: Afternoon (1:00 PM - 4:00 PM)</option>
+                  <option value="Today: Evening (5:00 PM - 8:30 PM)">🌆 Today: Evening (5:00 PM - 8:30 PM)</option>
+                  <option value="Tomorrow: Morning (9:00 AM - 12:00 PM)">📅 Tomorrow: Morning (9:00 AM - 12:00 PM)</option>
+                  <option value="Tomorrow: Afternoon (1:00 PM - 4:00 PM)">📅 Tomorrow: Afternoon (1:00 PM - 4:00 PM)</option>
+                </select>
+              </div>
+
+              <!-- Submit Button -->
+              <div class="pt-2">
+                <button
+                  type="submit"
+                  id="lead-submit-btn"
+                  class="w-full bg-brand-amber hover:bg-brand-amberHover text-brand-navy font-extrabold text-base py-4 px-6 rounded-xl flex items-center justify-center gap-3 shadow-lg shadow-amber-500/20 active:scale-98 transition-all"
+                >
+                  <i class="fa-brands fa-whatsapp text-xl text-[#0B2545]"></i>
+                  <span>Confirm & Book on WhatsApp (Zero Advance)</span>
+                </button>
+              </div>
+
+              <div class="flex flex-col sm:flex-row items-center justify-center gap-4 text-xs text-slate-400 pt-2">
+                <span class="flex items-center gap-1.5">
+                  <i class="fa-solid fa-shield-halved text-brand-amber"></i> 30-Day Work Warranty
+                </span>
+                <span class="hidden sm:inline">•</span>
+                <span class="flex items-center gap-1.5">
+                  <i class="fa-solid fa-hand-holding-dollar text-brand-amber"></i> Pay Cash or UPI After Service
+                </span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. TRANSPARENT PRICING / RATE CARD SECTION -->
+      <section id="pricing" class="py-16 bg-slate-100 border-t border-b border-slate-200 scroll-mt-20">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center max-w-2xl mx-auto mb-10">
+            <span class="inline-block px-3 py-1 bg-white text-slate-800 text-xs font-bold uppercase tracking-wider rounded-full shadow-sm mb-3">
+              Fixed & Transparent Rates
+            </span>
+            <h2 class="text-2xl sm:text-4xl font-extrabold text-brand-navy font-display tracking-tight">
+              Honest Patna Pricing Card
+            </h2>
+            <p class="text-xs sm:text-sm text-slate-600 mt-2">
+              No sudden billing surprises. Rates are pre-agreed before our karigar starts turning a single screw.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+            <div class="overflow-x-auto">
+              <table class="w-full text-left text-sm">
+                <thead class="bg-brand-navy text-white text-xs uppercase tracking-wider">
+                  <tr>
+                    <th class="py-3.5 px-5">Service Category & Scope</th>
+                    <th class="py-3.5 px-5">Starting Price</th>
+                    <th class="py-3.5 px-5">Guarantee</th>
+                    <th class="py-3.5 px-5 text-right">Instant Action</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-slate-100 text-slate-700">
+                  <tr class="hover:bg-slate-50 transition-colors">
+                    <td class="py-3.5 px-5 font-semibold text-brand-navy">
+                      Split / Window AC Jet Power Cleaning
+                      <span class="block text-xs font-normal text-slate-500">Indoor/outdoor coil foam pressure wash</span>
+                    </td>
+                    <td class="py-3.5 px-5 font-extrabold text-emerald-700">₹399</td>
+                    <td class="py-3.5 px-5 text-xs text-slate-500"><span class="bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded font-medium">30-Day Cooling</span></td>
+                    <td class="py-3.5 px-5 text-right">
+                      <a href="https://wa.me/916206366989?text=Hi%20QuickServe%20Patna,%20I%20want%20to%20book%20AC%20Jet%20Cleaning%20(₹399)." target="_blank" class="inline-flex items-center gap-1.5 text-xs font-bold text-brand-navy hover:text-brand-amber">
+                        Book <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                      </a>
+                    </td>
+                  </tr>
+
+                  <tr class="hover:bg-slate-50 transition-colors">
+                    <td class="py-3.5 px-5 font-semibold text-brand-navy">
+                      Ceiling Fan & Exhaust Fitting
+                      <span class="block text-xs font-normal text-slate-500">Hook mount, blade balance, switch connection</span>
+                    </td>
+                    <td class="py-3.5 px-5 font-extrabold text-emerald-700">₹79</td>
+                    <td class="py-3.5 px-5 text-xs text-slate-500"><span class="bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded font-medium">15-Day Service</span></td>
+                    <td class="py-3.5 px-5 text-right">
+                      <a href="https://wa.me/916206366989?text=Hi%20QuickServe%20Patna,%20I%20want%20to%20book%20Fan%20Fitting%20(₹79)." target="_blank" class="inline-flex items-center gap-1.5 text-xs font-bold text-brand-navy hover:text-brand-amber">
+                        Book <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                      </a>
+                    </td>
+                  </tr>
+
+                  <tr class="hover:bg-slate-50 transition-colors">
+                    <td class="py-3.5 px-5 font-semibold text-brand-navy">
+                      Tap / Spout / Flush Valve Leakage Repair
+                      <span class="block text-xs font-normal text-slate-500">Washer fix, teflon sealing, angle cock replacement</span>
+                    </td>
+                    <td class="py-3.5 px-5 font-extrabold text-emerald-700">₹99</td>
+                    <td class="py-3.5 px-5 text-xs text-slate-500"><span class="bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded font-medium">15-Day Leak-Free</span></td>
+                    <td class="py-3.5 px-5 text-right">
+                      <a href="https://wa.me/916206366989?text=Hi%20QuickServe%20Patna,%20I%20want%20to%20book%20Tap%20Leakage%20Fix%20(₹99)." target="_blank" class="inline-flex items-center gap-1.5 text-xs font-bold text-brand-navy hover:text-brand-amber">
+                        Book <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                      </a>
+                    </td>
+                  </tr>
+
+                  <tr class="hover:bg-slate-50 transition-colors">
+                    <td class="py-3.5 px-5 font-semibold text-brand-navy">
+                      Inverter & Battery Setup / MCB Box Wiring
+                      <span class="block text-xs font-normal text-slate-500">Heavy DC cable crimping, bypass wiring</span>
+                    </td>
+                    <td class="py-3.5 px-5 font-extrabold text-emerald-700">₹299</td>
+                    <td class="py-3.5 px-5 text-xs text-slate-500"><span class="bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded font-medium">30-Day Guarantee</span></td>
+                    <td class="py-3.5 px-5 text-right">
+                      <a href="https://wa.me/916206366989?text=Hi%20QuickServe%20Patna,%20I%20want%20to%20book%20Inverter%20Setup%20(₹299)." target="_blank" class="inline-flex items-center gap-1.5 text-xs font-bold text-brand-navy hover:text-brand-amber">
+                        Book <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                      </a>
+                    </td>
+                  </tr>
+
+                  <tr class="hover:bg-slate-50 transition-colors">
+                    <td class="py-3.5 px-5 font-semibold text-brand-navy">
+                      CCTV Camera Single Point Fitting
+                      <span class="block text-xs font-normal text-slate-500">Mounting, BNC power connector, phone app sync</span>
+                    </td>
+                    <td class="py-3.5 px-5 font-extrabold text-emerald-700">₹299</td>
+                    <td class="py-3.5 px-5 text-xs text-slate-500"><span class="bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded font-medium">Lifetime Wire Dress</span></td>
+                    <td class="py-3.5 px-5 text-right">
+                      <a href="https://wa.me/916206366989?text=Hi%20QuickServe%20Patna,%20I%20want%20to%20book%20CCTV%20Setup%20(₹299)." target="_blank" class="inline-flex items-center gap-1.5 text-xs font-bold text-brand-navy hover:text-brand-amber">
+                        Book <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                      </a>
+                    </td>
+                  </tr>
+
+                  <tr class="hover:bg-slate-50 transition-colors">
+                    <td class="py-3.5 px-5 font-semibold text-brand-navy">
+                      Car Single Panel Denting & Painting
+                      <span class="block text-xs font-normal text-slate-500">Bumper or Fender factory shade matching</span>
+                    </td>
+                    <td class="py-3.5 px-5 font-extrabold text-emerald-700">₹1,499</td>
+                    <td class="py-3.5 px-5 text-xs text-slate-500"><span class="bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded font-medium">1-Year Paint Shine</span></td>
+                    <td class="py-3.5 px-5 text-right">
+                      <a href="https://wa.me/916206366989?text=Hi%20QuickServe%20Patna,%20I%20want%20to%20book%20Car%20Panel%20Paint%20(₹1499)." target="_blank" class="inline-flex items-center gap-1.5 text-xs font-bold text-brand-navy hover:text-brand-amber">
+                        Book <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="p-4 bg-slate-50 text-center border-t border-slate-100 text-xs text-slate-500">
+              Need custom work or multiple rooms? <a href="tel:+916206366989" class="font-bold text-brand-navy hover:underline">Call for custom quote: +91 6206366989</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7. WHY CHOOSE QUICKSERVE PATNA (4 Trust Cards) -->
+      <section id="why-us" class="py-16 bg-white scroll-mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div class="text-center max-w-2xl mx-auto mb-12">
+            <span class="inline-block px-3 py-1 bg-blue-100 text-blue-900 text-xs font-bold uppercase tracking-wider rounded-full mb-3">
+              Built For Patna Homes
+            </span>
+            <h2 class="text-2xl sm:text-4xl font-extrabold text-brand-navy font-display tracking-tight">
+              Why Choose QuickServe Patna?
+            </h2>
+            <p class="text-sm sm:text-base text-slate-600 mt-2">
+              We eliminate the headache of searching for random street karigars with guaranteed promptness and verified safety.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+            <!-- Card 1 -->
+            <div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl hover:border-brand-amber transition-all shadow-sm">
+              <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center text-xl mb-4 font-bold">
+                <i class="fa-solid fa-bolt-lightning text-brand-amber"></i>
+              </div>
+              <h3 class="text-lg font-bold text-brand-navy mb-2 font-display">
+                60-Minute Rapid Response
+              </h3>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Stationed karigars across Boring Road, Kankarbagh, Bailey Road, and Danapur ensure technicians reach your address in under an hour.
+              </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl hover:border-brand-amber transition-all shadow-sm">
+              <div class="w-12 h-12 rounded-xl bg-blue-100 text-brand-navy flex items-center justify-center text-xl mb-4 font-bold">
+                <i class="fa-solid fa-receipt text-blue-700"></i>
+              </div>
+              <h3 class="text-lg font-bold text-brand-navy mb-2 font-display">
+                Upfront Fixed Pricing
+              </h3>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                No surprise inflated bills after the job is finished. Every price is communicated and approved on WhatsApp before work begins.
+              </p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl hover:border-brand-amber transition-all shadow-sm">
+              <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center text-xl mb-4 font-bold">
+                <i class="fa-solid fa-shield-heart text-emerald-600"></i>
+              </div>
+              <h3 class="text-lg font-bold text-brand-navy mb-2 font-display">
+                30-Day Post Guarantee
+              </h3>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                If the repaired issue re-occurs within 30 days, we send an expert technician back to fix it for free with zero questions asked.
+              </p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl hover:border-brand-amber transition-all shadow-sm">
+              <div class="w-12 h-12 rounded-xl bg-indigo-100 text-indigo-800 flex items-center justify-center text-xl mb-4 font-bold">
+                <i class="fa-solid fa-user-check text-indigo-600"></i>
+              </div>
+              <h3 class="text-lg font-bold text-brand-navy mb-2 font-display">
+                100% Background-Verified
+              </h3>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Every technician is Aadhaar-verified, police-checked, and skilled with minimum 5+ years of practical trade experience.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- 8. CUSTOMER TESTIMONIALS (Realistic Patna Localities) -->
+      <section id="reviews" class="py-16 bg-slate-50 border-t border-slate-200 scroll-mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div class="text-center max-w-2xl mx-auto mb-12">
+            <span class="inline-block px-3 py-1 bg-amber-100 text-amber-900 text-xs font-bold uppercase tracking-wider rounded-full mb-3">
+              Real Patna Experiences
+            </span>
+            <h2 class="text-2xl sm:text-4xl font-extrabold text-brand-navy font-display tracking-tight">
+              What Local Patna Customers Say
+            </h2>
+            <p class="text-sm sm:text-base text-slate-600 mt-2">
+              Trusted by homeowners, doctors, businessmen, and apartments across Patna.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+            <!-- Review 1: Kankarbagh -->
+            <div class="bg-white border border-slate-200 p-6 rounded-2xl shadow-sm flex flex-col justify-between">
+              <div>
+                <div class="flex items-center text-brand-amber text-sm mb-3">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="text-sm text-slate-700 italic leading-relaxed mb-4">
+                  "Booked AC jet service in Kankarbagh during peak 42°C heat. The technician arrived in just 35 minutes on his bike with full pressure washing gear. Fixed the cooling fault and left the room completely clean. Transparent ₹399 as promised!"
+                </p>
+              </div>
+              <div class="pt-4 border-t border-slate-100 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-sm">
+                  AK
+                </div>
+                <div>
+                  <h4 class="text-sm font-bold text-brand-navy">Amit Kumar</h4>
+                  <span class="text-xs text-slate-500">Kankarbagh (Near Tiwari Bechar)</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 2: Boring Road -->
+            <div class="bg-white border border-slate-200 p-6 rounded-2xl shadow-sm flex flex-col justify-between">
+              <div>
+                <div class="flex items-center text-brand-amber text-sm mb-3">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="text-sm text-slate-700 italic leading-relaxed mb-4">
+                  "Our main switchboard had a short circuit at 8:15 PM and our inverter stopped functioning. QuickServe sent an experienced electrician to Boring Road within 40 minutes. Extremely polite and diagnosed the neutral issue right away. True lifesavers!"
+                </p>
+              </div>
+              <div class="pt-4 border-t border-slate-100 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-emerald-600 text-white font-bold flex items-center justify-center text-sm">
+                  PS
+                </div>
+                <div>
+                  <h4 class="text-sm font-bold text-brand-navy">Priya Sharma</h4>
+                  <span class="text-xs text-slate-500">Boring Road (Near AN College)</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 3: Jagdeo Path -->
+            <div class="bg-white border border-slate-200 p-6 rounded-2xl shadow-sm flex flex-col justify-between">
+              <div>
+                <div class="flex items-center text-brand-amber text-sm mb-3">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="text-sm text-slate-700 italic leading-relaxed mb-4">
+                  "Got doorstep scratch buffing and rear bumper painting done for my Swift near Jagdeo Path. Incredible factory finish done right in my apartment stilt parking. Saved me 3 days of hassle at traditional body shops."
+                </p>
+              </div>
+              <div class="pt-4 border-t border-slate-100 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-amber-600 text-white font-bold flex items-center justify-center text-sm">
+                  RV
+                </div>
+                <div>
+                  <h4 class="text-sm font-bold text-brand-navy">Rajesh Verma</h4>
+                  <span class="text-xs text-slate-500">Jagdeo Path (Bailey Road)</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- 9. EMERGENCY CALLOUT BANNER -->
+      <section class="bg-brand-dark py-10 text-white border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-6">
+          <div>
+            <h3 class="text-xl sm:text-2xl font-bold font-display text-white">
+              Have a plumbing leak or electrical blackout right now?
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-400 mt-1">
+              Our Patna rapid emergency response team arrives within 60 minutes.
+            </p>
+          </div>
+          <div class="flex items-center gap-3 w-full sm:w-auto">
+            <a href="tel:+916206366989" class="flex-1 sm:flex-none flex items-center justify-center gap-2 bg-brand-amber hover:bg-brand-amberHover text-brand-navy font-bold px-6 py-3 rounded-xl text-sm transition-all shadow-md">
+              <i class="fa-solid fa-phone"></i> Call 6206366989
+            </a>
+            <a href="https://wa.me/916206366989?text=EMERGENCY%20SERVICE%20REQUEST%20PATNA" target="_blank" class="flex-1 sm:flex-none flex items-center justify-center gap-2 bg-brand-whatsapp hover:bg-brand-whatsappHover text-white font-bold px-6 py-3 rounded-xl text-sm transition-all shadow-md">
+              <i class="fa-brands fa-whatsapp text-lg"></i> WhatsApp Now
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- 10. FOOTER -->
+    <footer class="bg-brand-navy text-white pt-14 pb-12 border-t border-white/10 text-xs">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+          
+          <!-- Column 1: Brand Info -->
+          <div>
+            <div class="flex items-center gap-2.5 mb-4">
+              <div class="w-9 h-9 rounded-lg bg-brand-amber text-brand-navy flex items-center justify-center font-black">
+                <i class="fa-solid fa-bolt"></i>
+              </div>
+              <span class="text-xl font-extrabold font-display tracking-tight text-white">
+                QuickServe <span class="text-brand-amber">Patna</span>
+              </span>
+            </div>
+            <p class="text-slate-400 leading-relaxed mb-4">
+              Patna's premier on-demand doorstep service platform. Certified technicians, upfront rates, and zero stress for residential & commercial properties.
+            </p>
+            <div class="text-slate-300 space-y-1.5">
+              <div><strong class="text-white">Helpline:</strong> <a href="tel:+916206366989" class="text-brand-amber hover:underline">+91 6206366989</a></div>
+              <div><strong class="text-white">Hours:</strong> 8:00 AM – 9:30 PM (All 7 Days)</div>
+            </div>
+          </div>
+
+          <!-- Column 2: Quick Links -->
+          <div>
+            <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-4 border-b border-white/10 pb-2">
+              Quick Navigation
+            </h4>
+            <ul class="space-y-2 text-slate-300">
+              <li><a href="#services" class="hover:text-brand-amber transition-colors">Our Services</a></li>
+              <li><a href="#pricing" class="hover:text-brand-amber transition-colors">Pricing & Rate Card</a></li>
+              <li><a href="#booking" class="hover:text-brand-amber transition-colors">Instant Booking Form</a></li>
+              <li><a href="#why-us" class="hover:text-brand-amber transition-colors">Why Choose QuickServe</a></li>
+              <li><a href="#reviews" class="hover:text-brand-amber transition-colors">Patna Customer Reviews</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 3: Service Categories -->
+          <div>
+            <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-4 border-b border-white/10 pb-2">
+              Popular Services
+            </h4>
+            <ul class="space-y-2 text-slate-300">
+              <li><a href="#services" class="hover:text-brand-amber transition-colors">AC Foam Jet Wash & Gas Charging</a></li>
+              <li><a href="#services" class="hover:text-brand-amber transition-colors">Electrical MCB & Inverter Wiring</a></li>
+              <li><a href="#services" class="hover:text-brand-amber transition-colors">Plumbing Leak Fix & Overhead Tank Wash</a></li>
+              <li><a href="#services" class="hover:text-brand-amber transition-colors">RO Water Purifier & Geyser Repair</a></li>
+              <li><a href="#services" class="hover:text-brand-amber transition-colors">Car Scratch Buffing & Doorstep Paint</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 4: Patna Localities Served -->
+          <div>
+            <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-4 border-b border-white/10 pb-2">
+              Serving Patna Localities
+            </h4>
+            <div class="flex flex-wrap gap-1.5 text-[11px] text-slate-300">
+              <span class="bg-white/10 px-2 py-1 rounded">Boring Road</span>
+              <span class="bg-white/10 px-2 py-1 rounded">Kankarbagh</span>
+              <span class="bg-white/10 px-2 py-1 rounded">Bailey Road</span>
+              <span class="bg-white/10 px-2 py-1 rounded">Raja Bazar</span>
+              <span class="bg-white/10 px-2 py-1 rounded">Danapur</span>
+              <span class="bg-white/10 px-2 py-1 rounded">Patliputra Colony</span>
+              <span class="bg-white/10 px-2 py-1 rounded">Ashiana Nagar</span>
+              <span class="bg-white/10 px-2 py-1 rounded">Exhibition Road</span>
+              <span class="bg-white/10 px-2 py-1 rounded">Fraser Road</span>
+              <span class="bg-white/10 px-2 py-1 rounded">Rajendra Nagar</span>
+              <span class="bg-white/10 px-2 py-1 rounded">Saguna More</span>
+              <span class="bg-white/10 px-2 py-1 rounded">Anisabad</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="pt-8 border-t border-white/10 text-center text-slate-400 text-xs flex flex-col sm:flex-row items-center justify-between gap-3">
+          <p>© 2024 QuickServe Patna. All Rights Reserved.</p>
+          <p>Patna's Most Trusted Home & Auto Maintenance Network • Phone: +91 6206366989</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 11. FLOATING WHATSAPP ACTION BUTTON (Pinned bottom-right circular green button with soft pulse) -->
+    <aside aria-label="Quick contact widget">
+      <a
+        id="floating-whatsapp-btn"
+        href="https://wa.me/916206366989?text=Hi%20QuickServe%20Patna,%20I%20need%20a%20technician"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="fixed bottom-6 right-6 z-50 bg-brand-whatsapp hover:bg-brand-whatsappHover text-white w-14 h-14 sm:w-16 sm:h-16 rounded-full shadow-2xl flex items-center justify-center text-2xl sm:text-3xl transition-transform hover:scale-110 active:scale-95 whatsapp-pulse"
+        title="Chat on WhatsApp (+91 6206366989)"
+      >
+        <i class="fa-brands fa-whatsapp"></i>
+        <!-- Notification badge -->
+        <span class="absolute -top-1 -right-1 flex h-4 w-4">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-4 w-4 bg-amber-500 border-2 border-brand-navy"></span>
+        </span>
+      </a>
+    </aside>
+
+    <!-- 12. MOBILE FIXED BOTTOM ACTION DOCK (For instant CRO conversion on mobile) -->
+    <div class="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-brand-navy/95 backdrop-blur-md border-t border-white/15 px-3 py-2 flex items-center gap-2">
+      <a
+        href="tel:+916206366989"
+        class="flex-1 bg-white/10 hover:bg-white/20 text-white font-bold py-2.5 px-3 rounded-xl text-xs flex items-center justify-center gap-1.5 border border-white/15 active:scale-95 transition-all"
+      >
+        <i class="fa-solid fa-phone text-brand-amber"></i>
+        <span>Call Expert</span>
+      </a>
+      <a
+        href="https://wa.me/916206366989?text=Hi%20QuickServe%20Patna,%20I%20need%20a%20technician"
+        target="_blank"
+        class="flex-1 bg-brand-whatsapp hover:bg-brand-whatsappHover text-white font-extrabold py-2.5 px-3 rounded-xl text-xs flex items-center justify-center gap-1.5 active:scale-95 transition-all shadow-md shadow-emerald-500/20"
+      >
+        <i class="fa-brands fa-whatsapp text-sm"></i>
+        <span>WhatsApp</span>
+      </a>
+    </div>
+
+    <!-- 13. PURE VANILLA JAVASCRIPT FOR INTERACTIVITY & WHATSAPP REDIRECTS -->
+    <script>
+      // 1. Mobile Menu Toggle
+      function toggleMobileMenu() {
+        const menu = document.getElementById('mobile-menu');
+        const icon = document.getElementById('menu-icon');
+        if (menu.classList.contains('hidden')) {
+          menu.classList.remove('hidden');
+          icon.classList.remove('fa-bars');
+          icon.classList.add('fa-xmark');
+        } else {
+          menu.classList.add('hidden');
+          icon.classList.remove('fa-xmark');
+          icon.classList.add('fa-bars');
+        }
+      }
+
+      // 2. Direct Lead Booking Form Handler (Captures values and opens WhatsApp in new tab)
+      function handleLeadBooking(event) {
+        event.preventDefault();
+        
+        const name = document.getElementById('lead-name').value.trim();
+        const phone = document.getElementById('lead-phone').value.trim();
+        const service = document.getElementById('lead-service').value;
+        const area = document.getElementById('lead-area').value;
+        const slot = document.getElementById('lead-slot').value;
+
+        if (!name || !phone) {
+          alert('Please enter your Name and 10-digit Phone number.');
+          return;
+        }
+
+        // Format requested WhatsApp text exactly as specified
+        const messageText = 
+`Hello QuickServe Patna, I want to book a service:
+Name: ${name}
+Phone: ${phone}
+Service: ${service}
+Area: ${area}
+Slot: ${slot}`;
+
+        const whatsappUrl = `https://wa.me/916206366989?text=${encodeURIComponent(messageText)}`;
+        
+        // Open WhatsApp in a new tab
+        window.open(whatsappUrl, '_blank');
+      }
+
+      // 3. Quick Hero Instant Selector Handler
+      function handleQuickHeroBooking() {
+        const service = document.getElementById('quick-hero-service').value;
+        const area = document.getElementById('quick-hero-locality').value;
+
+        const messageText = 
+`Hello QuickServe Patna, I want to book a service:
+Service: ${service}
+Area: ${area}
+Slot: Urgent / Within 60 Mins`;
+
+        const whatsappUrl = `https://wa.me/916206366989?text=${encodeURIComponent(messageText)}`;
+        window.open(whatsappUrl, '_blank');
+      }
+    </script>
+  </body>
+</html>
+
+

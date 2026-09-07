@@ -1,0 +1,6 @@
+{
+  "name": "QuickServe Patna",
+  "description": "Patna's most trusted home & vehicle care at your doorstep with 60-minute arrival guarantee.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
